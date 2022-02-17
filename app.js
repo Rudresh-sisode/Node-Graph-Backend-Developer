@@ -101,7 +101,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    '<You should use your Mongodb URL here>'
+    'Need to add mongodb url from atlas'
   )
   .then(result => {
     app.listen(8080);
